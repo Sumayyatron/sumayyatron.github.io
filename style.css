@@ -11,12 +11,15 @@ Version: 1.2
 /** Base Styles
 --------------------------------------------------------------*/
 :root {
-  --accent-color: #FFD6A5;
+  --accent-color: #D9EDF8;
   --secondary-color: #E4F1EE;
-  --dark-color: #DEDAF4;
-  --grey-color: #CECBC7;
-  --body-text-color: #DEDAF4;
-  --light-text-color: #1b1b1b;
+  --tertiary-color: #FFD645;
+  --quaternary-color: #FFADAD;
+  --quinary-color: #FDFFB6;
+  --dark-color: #1b1b1b;
+  --grey-color: #DEDAF4;
+  --body-text-color: #1b1b1b;
+  --light-text-color: #353535;
   --link-color: #DEDAF4;
 }
 
