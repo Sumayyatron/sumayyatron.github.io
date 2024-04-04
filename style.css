@@ -11,13 +11,13 @@ Version: 1.2
 /** Base Styles
 --------------------------------------------------------------*/
 :root {
-  --accent-color: #F26649;
-  --secondary-color: #F5F3EB;
-  --dark-color: #241F21;
+  --accent-color: #FFD6A5;
+  --secondary-color: #E4F1EE;
+  --dark-color: #DEDAF4;
   --grey-color: #CECBC7;
-  --body-text-color: #241F21;
-  --light-text-color: #696969;
-  --link-color: #241F21;
+  --body-text-color: #DEDAF4;
+  --light-text-color: #1b1b1b;
+  --link-color: #DEDAF4;
 }
 
 *,
@@ -618,7 +618,7 @@ article.blog-article {
 /* ----------  contact section  ----------  */
 
 .contact-list {
-  border: 1px solid #F26649;
+  border: 1px solid #FFD6A5;
   border-radius: 15px;
   width: 237px;
   height: 145px;
@@ -644,7 +644,7 @@ p.contact-paragraph {
 @media only screen and (max-width: 900px) {
 
   .contact-list {
-    border: 1px solid #F26649;
+    border: 1px solid #FFD6A5;
     border-radius: 15px;
     width: 237px;
     height: 100px;
