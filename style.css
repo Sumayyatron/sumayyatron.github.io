@@ -12,17 +12,18 @@ Version: 1.2
 --------------------------------------------------------------*/
 :root {
   --accent-color: #FF6633;
-  --secondary-color: #E4F1EE;
+  --secondary-color: #E3E3E3;
   --tertiary-color: #FFD6A5;
   --quaternary-color: #FFADAD;
   --quinary-color: #FDFFB6;
   --senary-color: #D9EDF8;
-  --septary-color: #DEDAF4;  
+  --septary-color: #DEDAF4; 
+  --quaternary-color: #E4F1EE;
   --dark-color: #1b1b1b;
   --grey-color: #DEDAF4;
   --body-text-color: #1b1b1b;
   --light-text-color: #353535;
-  --link-color: #FFD6A5;
+  --link-color: #FF6633;
 }
 
 *,
