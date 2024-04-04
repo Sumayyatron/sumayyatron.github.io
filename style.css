@@ -11,16 +11,18 @@ Version: 1.2
 /** Base Styles
 --------------------------------------------------------------*/
 :root {
-  --accent-color: #D9EDF8;
+  --accent-color: #FF6633;
   --secondary-color: #E4F1EE;
-  --tertiary-color: #FFD645;
+  --tertiary-color: #FFD6A5;
   --quaternary-color: #FFADAD;
   --quinary-color: #FDFFB6;
+  --senary-color: #D9EDF8;
+  --septary-color: #DEDAF4;  
   --dark-color: #1b1b1b;
   --grey-color: #DEDAF4;
   --body-text-color: #1b1b1b;
   --light-text-color: #353535;
-  --link-color: #DEDAF4;
+  --link-color: #FFD6A5;
 }
 
 *,
@@ -148,10 +150,10 @@ button.btn.btn-primary.btn-lg {
 }
 
 .btn-primary {
-  --bs-btn-color: #F5F2EA;
+  --bs-btn-color: #D9EDF8;
   --bs-btn-bg: var(--accent-color);
   --bs-btn-border-color: var(--accent-color);
-  --bs-btn-hover-color: #F5F2EA;
+  --bs-btn-hover-color: #D9EDF8;
   --bs-btn-hover-bg: var(--dark-color);
   --bs-btn-hover-border-color: var(--dark-color);
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
@@ -207,7 +209,7 @@ button.btn.btn-outline-primary {
 
 /* mid-break line  */
 .mid-break {
-  color: #DAD9D4;
+  color: #FFD645;
   opacity: 0.5;
   height: 1px;
 }
@@ -312,7 +314,7 @@ a {
 }
 
 header p.copyright {
-  color: #DBD9D1;
+  color: #DEDAF4;
   margin-top: 10%;
 }
 
