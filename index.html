@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <title>Maya Beck Portfolio</title>
+    <title>Maya Beck Portfolio </title>
 
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -31,7 +31,6 @@
 
 <body data-bs-spy="scroll" data-bs-target="#navigation-bar" tabindex="0">
 
-
     <div class=" offcanvas-btn text-end m-3">
         <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
             aria-controls="offcanvasRight"><iconify-icon icon="ci:hamburger-lg"
@@ -50,24 +49,27 @@
                         <img src="images/Portrait.jpeg" class="hero-img mb-4 rounded-circle" alt="Bootstrap Themes"
                             width="140" height="140" loading="lazy">
 
+
                         <h2 class="fw-bold">Maya Beck</h2>
                         <p>I’m a San Diego-born UCSD graduate, writer, and former nonprofit professional 
 				aiming to transform my 10+ years of CRM database administration, website management, 
 				and strategic communications experience into a data analytics career</p>
-
 			    
-                        <h4 class=" text-uppercase text-light fs-5 fw-bold py-2 mx-5 mt-4 ">navigation</h4>
+                        <h4 class=" text-uppercase text-light fs-5 fw-bold py-2 mx-5 mt-4 ">Pages</h4>
+
                         <ul class="text-center list-unstyled">
-                            <li><a href="#resume" class="text-uppercase">Resume</a></li>
-                            <li><a href="#projects" class="text-uppercase">Projects</a></li>
-                            <li><a href="#about" class="text-uppercase">About Me</a></li>
-                            <li><a href="#contact" class="text-uppercase">Contact</a></li>
-                        </ul>    
+				<li><a href="#home" class="text-uppercase">Home</a></li>
+				<li><a href="#about" class="text-uppercase">About Me</a></li>
+                           	<li><a href="#resume" class="text-uppercase">Resume</a></li>
+				<li><a href="#portfolio" class="text-uppercase">Portfolio</a></li>
+				<li><a href="#contact" class="text-uppercase">Contact</a></li>
+                        </ul>
+
                     </div>
 
                     <div class="mb-5">
                         <p class="copyright">© Free HTML template by: <a href="https://templatesjungle.com/">
-                        <u>TemplatesJungle </u> </a> </p>
+                                <u>TemplatesJungle </u> </a> </p>
                     </div>
 
                 </div>
@@ -78,21 +80,14 @@
     <div class="container-fluid">
         <div class="row">
 
-<!-- ===RETURN OF THE NAVI BAR=== -->
-
             <section id="navigation-bar" class="navigation position-fixed ">
 
                 <ul class="nav nav-pills text-center align-items-center mt-5 ms-xl-5 ms-3 ">
                     <li>
-                        <a href="#resume" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
-                            aria-label="Orders" data-bs-original-title="Orders">
-                            <iconify-icon icon="ic:round-school"></iconify-icon>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#projects" class="nav-link rounded-0" data-bs-toggle="tooltip"
-                            data-bs-placement="right" aria-label="Projects" data-bs-original-title="Projects">
-                            <iconify-icon icon="ic:round-business-center"></iconify-icon>
+                        <a href="#home" class="nav-link active rounded-0" aria-current="page" data-bs-toggle="tooltip"
+                            data-bs-placement="right" aria-label="Home" data-bs-original-title="Home">
+                            <iconify-icon icon="ic:round-home"></iconify-icon>
+
                         </a>
                     </li>
                     <li>
@@ -100,7 +95,19 @@
                             aria-label="Dashboard" data-bs-original-title="Dashboard">
                             <iconify-icon icon="ic:round-person"></iconify-icon>
                         </a>
-                    </li>			
+                    </li>
+                    <li>
+                        <a href="#resume" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
+                            aria-label="Orders" data-bs-original-title="Orders">
+                            <iconify-icon icon="ic:round-school"></iconify-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="nav-link rounded-0" data-bs-toggle="tooltip"
+                            data-bs-placement="right" aria-label="Products" data-bs-original-title="Products">
+                            <iconify-icon icon="ic:round-business-center"></iconify-icon>
+                        </a>
+                    </li>
                     <li>
                         <a href="#contact" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
                             aria-label="Customers" data-bs-original-title="Customers">
@@ -108,61 +115,92 @@
                         </a>
                     </li>
                 </ul>
+
             </section>
 
-<!-- ===RETURN OF THE NAVI BAR=== -->
-
-		
-                    <section id="resume">
-                        <div class="py-4 my-4 ">
-                            <h1 class="fw-bold mt-5" style="color: #AED9F0">Resume</h1>
+            <div class="col-xl-6 offset-xl-2">
+                <div class="container content-container">
+                    <section id="home" class="mt-0">
+                        <div class=" py-lg-4 my-lg-4 text-center">
+                            <h1 class="fw-bold">I’m Maya</h1>
+                            <div class="col-lg-10 mx-auto">
+                                <p>I’m a San Diego-born UCSD graduate, writer, and former nonprofit professional 
+				aiming to transform my 10+ years of CRM database administration, website management, 
+				and strategic communications experience into a data analytics career</p>
+                                <div class=" gap-2 d-sm-flex justify-content-sm-center">
+                                    <button type="button" class="btn btn-primary btn-lg mt-3">HIRE ME</button>
+                                </div>
+                            </div>
                         </div>
-			    
+
+                    </section>
+
+                    <section id="about" class="mt-0">
+
                         <div class="py-4 my-4 ">
+                            <h1 class="fw-bold mt-5" style="color: #FFD6A5">About Me</h1>
+                            <p class="lead-paragraph my-4">
+				    I bring creative thinking to analysis and analytic thinking to creativity.</p>
+				    <p>I'm the kind of wonky nerd who makes worldbuilding spreadsheets of all her 400+ fictional characters, 
+				    watches videos essays on city planning for entertainment, and thinks that the symbolic logic class 
+				    required for my undergraduate Philosophy degree was "pretty fun, in retrospect!" I'm a bit of a 
+				    jack-of-all-trades in that I have worked in everything from event security to trail maintenance to 
+				    clothing retail to scene painting to grantwriting to election judging, but I am determined for my next step 
+				    to take me into the world of data analytics. I hope to remain there for years while continuing to write and 
+				    publish speculative fiction that envisions the better world  I aim to help create.</p>
+				   
+				<p>I would love to work for any San Diego-local or remote organization that uses data to better the world.</p>
+				<h3>StrengthsFinder:</h3> <p>Input - Learner - Intellection - Ideation - Strategic</p> 
+				<h3>MBTI:</h3> <p>INTP</p>  
+			</div>
+                    </section>
+
+                    <section id="resume" >
+                        <div class="py-4 my-4 ">
+                            <h1 class="fw-bold mt-5" style="color: #D9EDF8">Resume</h1>
                             <h2 class="fw-bold pb-4">Experience</h2>
 
                             <div class="row justify-content-start" data-aos="fade-up">
                                 <div class="col-7">
                                     <div class="data-info ">
-                                        <h4 class="meta-date">September 2020 – March 2024<img src="images/Ellipse 7.png" alt="image">
-					    <a class="open-description">UCSD Sixth College</a></h4> 
-					     
+                                        <p class="meta-date">September 2020 – March 2024 <img src="images/Ellipse 7.png" alt="image">
+                                            <a class="open-description"> UCSD Sixth College </a> </p>
                                         <h3 class="info-title">Instructional Assistant</h3>
+                                        <p>
 					    <ul>
-						<li>Guided 32 students per quarter through 40 hours of interdisciplinary discussion sections</li>
-						<li>Utilized grading rubric on roughly 60 major and 90 minor assignments per quarter</li>
-						<li>Provided actionable feedback on essays, presentations, short films, and other assignments</li> 
+						    <li>Guided 32 students per quarter through 40 hours of interdisciplinary discussion sections
+</li>
+						    <li>Utilized grading rubric on roughly 60 major and 90 minor assignments per quarter</li>
+<li>Provided actionable feedback on essays, presentations, short films, and other assignments</li> 
 				  	  </ul>
+                                        </p>
                                     </div>
+
                                 </div>
                             </div>
-			</div>
-				<hr>				
-				
                             <div class="row justify-content-start" data-aos="fade-up">
                                 <div class="col-7">
                                     <div class="data-info">
-                                        <h4 class="meta-date">October 2019 – August 2020 <img src="images/Ellipse 7.png" alt="image"> 
-						<a class="open-description"> Youthprise </a></h4>
+                                        <p class="meta-date">October 2019 – August 2020 <img src="images/Ellipse 7.png" alt="image"> <a
+                                                class="open-description">Youthprise </a> </p>
                                         <h3 class="info-title">Communications Specialist</h3>
                                         <p>
-					 <ul>
-					<li>Participated in Wordpress website audit and co-led updated website redesign</li>
+					    <ul>
+						    <li>Participated in Wordpress website audit and co-led updated website redesign</li>
 					<li>Managed weekly communications across social media platforms (Twitter, Instagram, Facebook)</li>
 					<li>Collaborated with multiple departments to develop visualizations, digital publications, and annual reports</li>
 					<li>Utilized dashboards in Google Analytics and Hootsuite to guide communications department goals</li>
                                         </ul>
 				    </p>
                                     </div>
-					<hr>
+
                                 </div>
                             </div>
-			    
                             <div class="row justify-content-start" data-aos="fade-up">
                                 <div class="col-7">
-                                    <div class="data-info">
-                                        <h4 class="meta-date"> December 2016 – July 2018 <img src="images/Ellipse 7.png" alt="image"> <a
-                                                class="open-description"> Cedar Cultural Center </a></h4>
+                                    <div class="data-info ">
+                                        <p class="meta-date">December 2016 – July 2018 <img src="images/Ellipse 7.png" alt="image"> <a
+                                                class="open-description"> Cedar Cultural Center </a></p>
                                         <h3 class="info-title">Development Coordinator </h3>
                                         <p>
 					    <ul>
@@ -173,15 +211,14 @@
 					    </ul>
 					</p>
                                     </div>
-					<hr>
+
                                 </div>
                             </div>
-			    
-			<div class="row justify-content-start" data-aos="fade-up">
+<div class="row justify-content-start" data-aos="fade-up">
                                 <div class="col-7">
                                     <div class="data-info">
-                                        <h4 class="meta-date">July 2015 – October 2016 <img src="images/Ellipse 7.png" alt="image"> <a
-                                                class="open-description">Bedlam Lowertown </a></h4>
+                                        <p class="meta-date">July 2015 – October 2016 <img src="images/Ellipse 7.png" alt="image"> <a
+                                                class="open-description">Bedlam Lowertown </a> </p>
                                         <h3 class="info-title">Communications & Box Office Manager</h3>
                                         <p>
 						<ul>
@@ -193,15 +230,14 @@
 						</ul>
                                         </p>
                                     </div>
-					<hr>
+
                                 </div>
                             </div>
-			    
                             <div class="row justify-content-start" data-aos="fade-up">
                                 <div class="col-7">
-                                    <div class="data-info">
-                                        <h4 class="meta-date">August 2014 – July 2015 <img src="images/Ellipse 7.png" alt="image"> <a
-                                                class="open-description"> Lifetrack </a></h4>
+                                    <div class="data-info ">
+                                        <p class="meta-date">August 2014 – July 2015 <img src="images/Ellipse 7.png" alt="image"> <a
+                                                class="open-description"> Lifetrack </a></p>
                                         <h3 class="info-title">Employment Data Strategy Associate </h3>
                                         <p>
 					    <ul>
@@ -211,43 +247,42 @@
 					    </ul>
                                         </p>
                                     </div>
+
                                 </div>
                             </div>
+                        </div>
 			    
                         <div class="py-4 my-4 ">
                             <h2 class="fw-bold pb-4">Education</h2>
 
                             <div class="row justify-content-start" data-aos="fade-up">
                                 <div class="col-7">
-                                    <div class="data-info">
-                                        <p class="meta-date"><b> 2024 <img src="images/Ellipse 7.png" alt="image">
+                                    <div class="data-info "; color: #FDFFB6>
+                                        <p class="meta-date">2024 <img src="images/Ellipse 7.png" alt="image">
                                             <a class="open-description">Google Data Analytics Professional Certificate</a>
-                                        </b></p>
+                                        </p>
                                         <h3 class="info-title">Data Analytics</h3>
                                         <p>Completed coursework in Python, R, SQL, data visualization, 
-					data processing, and other data analytics essentials.</p>
+					data processing, and other data analytics essentials.
+                                        </p>
                                     </div>
-				<hr>
                                 </div>
                             </div>
-				
                             <div class="row justify-content-start" data-aos="fade-up">
-                                <div class="col-7">
+                                <div class="col-7"; color: #E4F1EE>
                                     <div class="data-info  ">
-                                        <p class="meta-date"><b>2024 <img src="images/Ellipse 7.png" alt="image"> <a
-                                                class="open-description">University of California, San Diego </a></b></p>
+                                        <p class="meta-date">2024 <img src="images/Ellipse 7.png" alt="image"> <a
+                                                class="open-description">University of California, San Diego</a></p>
                                         <h3 class="info-title">Master of Fine Arts, Writing</h3>
                                         <p>Thesis complete with publication forthcoming</p>
                                     </div>
-				<hr>
-                                </div>    
+                                </div>
                             </div>
-				
                             <div class="row justify-content-start" data-aos="fade-up">
                                 <div class="col-7">
-                                    <div class="data-info">
-                                        <p class="meta-date"><b>2011 <img src="images/Ellipse 7.png" alt="image"> <a
-                                                class="open-description">University of Redlands </a></b></p>
+                                    <div class="data-info ">
+                                        <p class="meta-date">2011 <img src="images/Ellipse 7.png" alt="image"> <a
+                                                class="open-description">University of Redlands</a></p>
                                         <h3 class="info-title">Bachelor of Arts, Double Major in Studio Art and Philosophy</h3>
                                         <p>Thesis: “A Defense of Aristotelian Mimesis.” Graduated summa cum laude with departmental honors
                                         </p>
@@ -257,97 +292,69 @@
                         </div>
                     </section>
 
-                    <section id="projects">
+                    <section id="portfolio">
                         <div class="py-4 my-4 ">
-                            <h1 class="fw-bold mt-5" style="color: #C2E0C9">Projects</h1>
-                        </div>
+                            <h1 class="fw-bold mt-5" style="color: #E4F1EE">Portfolio</h1>
+
 				<div class="row justify-content-start" data-aos="fade-up">
-					<div class="col-7">
-                                    		<div class="data-info">
-                                        	<h3 class="info-title">Capstone Case Study: Bellesa Health </h3>
-                                       	 	<p class="meta-date"> 2024 <img src="images/Ellipse 7.png" alt="image"> Coursera Capstone Project </p>
-                                        	<h5> <a href="https://sumayyatron.github.io/bellesacase">Coursera Case Study 1</a> </h5>
-                                    		</div>
-					</div>
-					<hr>
-                        	</div>
 
 				<div class="col-7">
-                                    <div class="data-info">
-                                        <h3 class="info-title">Story Research Data Story 1: Story Idea Masterlist </h3>
-                                        <p class="meta-date"> 2024 <img src="images/Ellipse 7.png" alt="image"> Independent project </p>
-					<h5><a href="https://www.sumayyahbeck.com/storylistdata">Story Data Story 1</a></h5>
+                                    <div class="data-info ">
+                                        <p class="meta-date"> 2024 <img src="images/Ellipse 7.png" alt="image"> Coursera Capstone Project </p>
+                                        <h3 class="info-title">Capstone Case Study: Bellesa Health </h3>
+                                        <p>
+					    <a href="https://sumayyatron.github.io/bellesacase">Coursera Case Study 1</a>
+					</p>
                                     </div>
-					<hr>
                                 </div>
 
 				<div class="col-7">
-                                    <div class="data-info">
-                                        <h3 class="info-title">Story Research Data Story 2: The Language of Flowers </h3>
-                                        <p class="meta-date"> 2024 <img src="images/Ellipse 7.png" alt="image"> Independent project</p>
-					    <h5> <a href="https://www.sumayyahbeck.com/floriographydata">Story Data Story 2 </a> </h5>
+                                    <div class="data-info ">
+                                        <p class="meta-date"> 2024 <img src="images/Ellipse 7.png" alt="image"> Independent project </p>
+                                        <h3 class="info-title">Story Research Data Story 1: Story Idea Masterlist </h3>
+                                        <p>
+					    <a href="https://www.sumayyahbeck.com/storyideadata">Story Data Story 1</a>
+					</p>
                                     </div>
-					<hr>
+                                </div>
+
+				<div class="col-7">
+                                    <div class="data-info ">
+                                        <p class="meta-date"> 2024 <img src="images/Ellipse 7.png" alt="image"> Independent project </p>
+                                        <h3 class="info-title">Story Research Data Story 2: The Language of Flowers </h3>
+                                        <p>
+					    <a href="https://www.sumayyahbeck.com/floriographydata">Story Data Story 2</a>
+					</p>
+                                    </div>
                                 </div>
 					
 				<div class="col-7">
-                                    <div class="data-info">
-                                        <h3 class="info-title">Story Research Data Story 3: Unpacking my Agent Rejections </h3>
+                                    <div class="data-info ">
                                         <p class="meta-date"> 2024 <img src="images/Ellipse 7.png" alt="image"> Independent project </p>
-                                        <h5> <a href="https://www.sumayyahbeck.com/agentdata">Story Data Story 3 </a></h5>
+                                        <h3 class="info-title">Story Research Data Story 3: Unpacking my Agent Rejections </h3>
+                                        <p>
+					    <a href="https://www.sumayyahbeck.com/agentrejectiondata">Story Data Story 3</a>
+					</p>
                                     </div>
-					<hr>
                                 </div>
 
 				<div class="col-7">
-                                    <div class="data-info">
+                                    <div class="data-info ">
+                                        <p class="meta-date"> 2024 <img src="images/Ellipse 7.png" alt="image"> Independent project </p>
                                         <h3 class="info-title">How do my watchlist and ratings compare with MyAnimeList stats? </h3>
-                                        <p class="meta-date"> 2024 <img src="images/Ellipse 7.png" alt="image"> Independent project</p>
-					<h5> <a href="https://www.sumayyahbeck.com/MALanalysis">Anime Ratings Analysis </a></h5>
+                                        <p>
+					    <a href="https://www.sumayyahbeck.com/MALanalysis">Anime Ratings Analysis </a>
+					</p>
                                     </div>
-                                </div>			
-                    </section>
-		
-			<section id="about" class="mt-0">
-                        <div class="py-4 my-4 ">
-                            <h1 class="fw-bold mt-5" style="color: #FFD6A5">About Me</h1>
-                            <p class="lead-paragraph my-4">
-				    I bring creative thinking to analysis and analytic thinking to creativity.</p>
-				
-				    <p>I'm the kind of wonky nerd who makes worldbuilding spreadsheets of all her 400+ fictional characters, 
-				    watches videos essays on city planning for entertainment, and thinks that the symbolic logic class 
-				    required for my undergraduate Philosophy degree was "pretty fun, in retrospect!" I'm a bit of a 
-				    jack-of-all-trades in that I have worked in everything from event security to trail maintenance to 
-				    clothing retail to scene painting to grantwriting to election judging, but I am determined for my next step 
-				    to take me into the world of data analytics. I hope to remain there for years while continuing to write and 
-				    publish speculative fiction that envisions the better world  I aim to help create.</p>
-				   
-				<p>I would love to work for any San Diego-local or remote organization that uses data to better the world.</p>
-				<p><b>StrengthsFinder</b>: Input - Learner - Intellection - Ideation - Strategic</p> 
-				<p><b>MBTI</b>: INTP</p>
-				<h2 class="fw-bold pb-4">Skills</h2>
-					<ul>
-						<li>Adobe Suite: (PhotoShop, InDesign, Illustrator)</li>
-						<li>Data visualization (Tableau)</li>
-						<li>Email marketing: (MailChimp, Constant Contact)</li> 
-						<li>Web technologies: (Wordpress, Squarespace)</li>
-						<li>Advanced Excel tasks: (regular expressions, Pivot Tables, VLOOKUP, HLOOKUP, MATCH)</li>
-						<li>CRM databases: (Salesforce, ResearchPoint, Raiser’s Edge, PatronManager, CiviCRM)</li>
-						<li>Programming languages: (Python, SQL, R, HTML, CSS)</li>
-					</ul>
-				<hr>
-				<h2 class="fw-bold pb-4">Achievements</h2>
-					<ul>
-						<li>Member of American MENSA 2023</li>
-						<li>Awarded 10+ writing fellowships and mentorships</li>
-						<li>20+ fiction and nonfiction publications</li>
-						<li>Awarded over $20k in freelance grantwriting</li>
+                                </div>
+					
+                            </div>
+                        </div>
 
-					</ul>
-			</div>
                     </section>
-			
+
                     <section id="contact">
+
                         <div class="py-4 my-4 ">
                             <h1 class="fw-bold mt-5" style="color: #FFADAD">Contact</h1>
                             <p>Get in Contact!</p>
@@ -369,16 +376,23 @@
                                     <div class="col-md-12">
 
                                         <textarea class="form-control mt-4 mb-4" name="message" placeholder="Message"
-                                            style="height: 150px;" required=""> </textarea>
-                                        <button type="submit" name="submit" class="btn btn-primary btn-lg" color = #FF6633>SEND!</button>
+                                            style="height: 150px;" required=""></textarea>
+
+                                        <button type="submit" name="submit" class="btn btn-primary btn-lg" color = #F6633>SEND!</button>
+
                                     </div>
                                 </div>
                             </form>
+
                         </div>
+
+                        <div class="py-4 my-4 ">
+
                     </section>
+
                 </div>
             </div>
-	
+
             <div class="hero-sidebar col-xl-3 offset-xl-1">
                 <header class="hero position-fixed">
                     <div class="container hero-container text-center my-4 pt-3 align-content-between">
@@ -392,14 +406,15 @@
 				aiming to transform my 10+ years of CRM database administration, website management, 
 				    and strategic communications experience into a data analytics career.</p>
 
-                            <h4 class=" text-uppercase text-light fs-5 fw-bold py-2 mx-5 mt-5">navigation</h4>
+                            <h4 class=" text-uppercase text-light fs-5 fw-bold py-2 mx-5 mt-5">Pages</h4>
 
                             <ul class="text-center list-unstyled">
+				<li><a href="#home" class="text-uppercase">Home</a></li>
 				<li><a href="#about" class="text-uppercase">About Me</a></li>
                            	<li><a href="#resume" class="text-uppercase">Resume</a></li>
-				<li><a href="#projects" class="text-uppercase">Projects</a></li>
+				<li><a href="#portfolio" class="text-uppercase">Portfolio</a></li>
 				<li><a href="#contact" class="text-uppercase">Contact</a></li>
-                            	</ul>
+                            </ul>
 
                         </div>
 
@@ -407,11 +422,14 @@
                             <p class="copyright">Adapted from a template by <a href="https://templatesjungle.com/">
                                     <u>TemplatesJungle </u> </a> </p>
                         </div>
-			    
+
+
                     </div>
                 </header>
             </div>
 
+        </div>
+    </div>
 
 
     <script src="js/jquery-1.11.0.min.js"></script>
