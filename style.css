@@ -11,14 +11,8 @@ Version: 1.2
 /** Base Styles
 --------------------------------------------------------------*/
 :root {
-  --accent-color: #FFADAD;
-  --secondary-color: #FCFCFC;
-  --tertiary-ORANGE: #FFD6A5;
-  --quaternary-RED: #FFADAD;
-  --quinary-YELLOW: #FDFFB6;
-  --senary-BLUE: #aed9f0
-  --septary-VIOLET: #DEDAF4; 
-  --quaternary-GREEN: #c2e0d9
+  --accent-color: #F26649;
+  --secondary-color: #E3E3E3;
   --dark-color: #1b1b1b;
   --grey-color: #CCCCCC;
   --body-text-color: #1b1b1b;
@@ -151,10 +145,10 @@ button.btn.btn-primary.btn-lg {
 }
 
 .btn-primary {
-  --bs-btn-color: var(--grey-color);
+  --bs-btn-color: #FFFFFF;
   --bs-btn-bg: var(--accent-color);
   --bs-btn-border-color: var(--accent-color);
-  --bs-btn-hover-color: var(--grey-color);
+  --bs-btn-hover-color: var(--accent-color);
   --bs-btn-hover-bg: var(--dark-color);
   --bs-btn-hover-border-color: var(--dark-color);
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
@@ -210,7 +204,7 @@ button.btn.btn-outline-primary {
 
 /* mid-break line  */
 .mid-break {
-  var(--dark-color);
+  color: #FFFFFF;
   opacity: 0.5;
   height: 1px;
 }
@@ -315,7 +309,7 @@ a {
 }
 
 header p.copyright {
-  color: #FFFFFF;
+  color: var(--secondary-color);
   margin-top: 10%;
 }
 
@@ -617,14 +611,14 @@ article.blog-article {
 
 .blog-swipe iconify-icon {
   padding-top: 6px;
-  color: #A4A4A4;
+  color: var(--grey-color);
 }
 
 
 /* ----------  contact section  ----------  */
 
 .contact-list {
-  border: 1px solid #FFD6A5;
+  border: 1px solid #F26649;
   border-radius: 15px;
   width: 237px;
   height: 145px;
@@ -650,7 +644,7 @@ p.contact-paragraph {
 @media only screen and (max-width: 900px) {
 
   .contact-list {
-    border: 1px solid #FFD6A5;
+    border: 1px solid #F26649;
     border-radius: 15px;
     width: 237px;
     height: 100px;
