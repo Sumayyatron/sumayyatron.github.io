@@ -11,7 +11,7 @@ Version: 1.2
 /** Base Styles
 --------------------------------------------------------------*/
 :root {
-  --accent-color: #FF6633;
+  --accent-color: #FFADAD;
   --secondary-color: #FCFCFC;
   --tertiary-color: #FFD6A5;
   --quaternary-color: #FFADAD;
@@ -20,10 +20,10 @@ Version: 1.2
   --septary-color: #DEDAF4; 
   --quaternary-color: #E4F1EE;
   --dark-color: #1b1b1b;
-  --grey-color: #DEDAF4;
+  --grey-color: #CCCCCC;
   --body-text-color: #1b1b1b;
   --light-text-color: #353535;
-  --link-color: #FF6633;
+  --link-color: #FFD6A5;
 }
 
 *,
